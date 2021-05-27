@@ -51,5 +51,5 @@ is the primary key for this relation.<br>
 ● Value can be null.<br>
 <h3>➡️ER Diagrum</h3>
 https://docs.google.com/document/d/19i6774V6vZWI-iuIVJTorE74N9EDCL-rEo0Ely9Oy8w/edit?usp=sharing
-<h4>➡️Relational Schema</h4>
+<h3>➡️Relational Schema</h3>
 https://docs.google.com/document/d/1tQJj2CvMnHwNIcVh-bv1a0MZ717DIRZzMYVoEJo9s_g/edit?usp=sharing
