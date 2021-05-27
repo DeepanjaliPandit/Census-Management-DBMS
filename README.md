@@ -24,32 +24,32 @@ death along with death certificate number as its fields.<br>
 PostgreSQL also known as Postgres(it is a free and open-source relational database management system (RDBMS))<br>
 <br>
 <h2>➡️Assumptions</h2>
-1. Citizen:<br>
+1. Citizen:👨<br>
 ● Every citizen has a unique 12 digit identifying number (aadhar number).<br>
-2. Family:<br>
+2. Family:👨‍👩‍👦<br>
 ● Every family has a unique family_id.<br>
 ● Every family has citizens but vice-versa may not be true.<br>
 ● Every citizen part of the family has a common residential address.<br>
-3. Amenities:<br>
+3. Amenities:🏛️<br>
 ● Every amenity is uniquely identified by its address.<br>
-4. Can access:<br>
+4. Can access:↔<br>
 ● Details which families can access which amenities.<br>
-5. Employer:<br>
+5. Employer:💼<br>
 ● Employers have unique names.<br>
 ● Contacts and Industry fields are multivalued.<br>
-6. Employee:<br>
+6. Employee:🤵<br>
 ● Every employee has a unique combination of email address and username
 (LinkedIn profile)<br>
-7. Education:<br>
+7. Education:📓<br>
 ● A citizen may or may not have had an education. If they do, the aadhar number and
 highest qualification are considered to be the primary key.<br>
-8. Assets:<br>
+8. Assets:🚗<br>
 ● Each asset has a unique registration number.<br>
 ● The combination of the registration number and the asset holder’s aadhar number
 is the primary key for this relation.<br>
-9. Death:<br>
+9. Death:⚰<br>
 ● Every deceased person has a unique certificate number.<br>
-10. Dependant:<br>
+10. Dependant:👶<br>
 ● Details which citizen is dependant on another citizen<br>
 ● Value can be null.<br>
 <h3>➡️ER Diagrum</h3>
