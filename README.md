@@ -20,6 +20,9 @@ stored as a distinct combination of email id and username with the sector they a
 their salary, role and join date. Logs are kept for the deceased such having cause, date and time of
 death along with death certificate number as its fields.<br>
 <br>
+<h2>➡️DBMS Used</h2>
+PostgreSQL also known as Postgres(it is a free and open-source relational database management system (RDBMS))<br>
+<br>
 <h2>➡️Assumptions</h2>
 1. Citizen:<br>
 ● Every citizen has a unique 12 digit identifying number (aadhar number).<br>
